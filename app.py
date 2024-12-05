@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
+import joblib as joblib
+import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 
 # Load the trained model
